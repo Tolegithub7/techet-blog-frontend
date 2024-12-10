@@ -77,111 +77,112 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-6 text-center">What We Do</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
 
-          {/* Digital Marketing Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={digitalMarketingImage} 
-              alt="Digital Marketing"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Digital Marketing</h3>
-              <p className="text-white">
-                Tailored marketing strategies designed to maximize reach and deliver measurable results.
-              </p>
-            </div>
-          </div>
+  {/* Digital Marketing Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={digitalMarketingImage} 
+      alt="Digital Marketing"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Digital Marketing</h3>
+      <p className="text-gray-800 dark:text-white">
+        Tailored marketing strategies designed to maximize reach and deliver measurable results.
+      </p>
+    </div>
+  </div>
 
-          {/* Social Media Management Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={socialMediaManagementImage}
-              alt="Social Media Management"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Social Media Management</h3>
-              <p className="text-white">
-                Engaging audiences and building your online presence across multiple social media platforms.
-              </p>
-            </div>
-          </div>
-          {/* Website Development Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={websiteDevelopmentImage}
-              alt="Website Development"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Website Development</h3>
-              <p className="text-white">
-                Modern, responsive, and user-friendly websites designed to provide seamless user experiences.
-              </p>
-            </div>
-          </div>
+  {/* Social Media Management Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={socialMediaManagementImage}
+      alt="Social Media Management"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Social Media Management</h3>
+      <p className="text-gray-800 dark:text-white">
+        Engaging audiences and building your online presence across multiple social media platforms.
+      </p>
+    </div>
+  </div>
 
-          {/* SEO Optimization Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={seoOptimizationImage}
-              alt="SEO Optimization"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">SEO Optimizations</h3>
-              <p className="text-white">
-                Helping your business rank higher on search engines and reach its audience effectively.
-              </p>
-            </div>
-          </div>
+  {/* Website Development Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={websiteDevelopmentImage}
+      alt="Website Development"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Website Development</h3>
+      <p className="text-gray-800 dark:text-white">
+        Modern, responsive, and user-friendly websites designed to provide seamless user experiences.
+      </p>
+    </div>
+  </div>
 
+  {/* SEO Optimization Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={seoOptimizationImage}
+      alt="SEO Optimization"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">SEO Optimizations</h3>
+      <p className="text-gray-800 dark:text-white">
+        Helping your business rank higher on search engines and reach its audience effectively.
+      </p>
+    </div>
+  </div>
 
-          {/* Content Creation Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={contentCreationImage}
-              alt="Content Creation"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Content Creation</h3>
-              <p className="text-white">
-                Creating compelling and audience-focused content to tell your brand story.
-              </p>
-            </div>
-          </div>
+  {/* Content Creation Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={contentCreationImage}
+      alt="Content Creation"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Content Creation</h3>
+      <p className="text-gray-800 dark:text-white">
+        Creating compelling and audience-focused content to tell your brand story.
+      </p>
+    </div>
+  </div>
 
-          {/* Graphic Design Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={graphicDesignImage} 
-              alt="Graphic Design"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Graphic Design</h3>
-              <p className="text-white">
-                Stunning visuals designed to elevate your brand and create lasting impressions.
-              </p>
-            </div>
-          </div>
+  {/* Graphic Design Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={graphicDesignImage} 
+      alt="Graphic Design"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Graphic Design</h3>
+      <p className="text-gray-800 dark:text-white">
+        Stunning visuals designed to elevate your brand and create lasting impressions.
+      </p>
+    </div>
+  </div>
 
-          {/* Video Editing Card */}
-          <div className="card border rounded-lg shadow-lg overflow-hidden">
-            <img 
-              src={videoEditingImage} 
-              alt="Video Editing"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-white">Video Editing</h3>
-              <p className="text-white">
-                Creating captivating videos that tell your brand&pos;s story and engage your audience.
-              </p>
-            </div>
-          </div>
-        </div>
+  {/* Video Editing Card */}
+  <div className="card border rounded-lg shadow-lg overflow-hidden">
+    <img 
+      src={videoEditingImage} 
+      alt="Video Editing"
+      className="w-full h-48 object-cover"
+    />
+    <div className="p-4">
+      <h3 className="text-xl font-bold text-gray-800 dark:text-white">Video Editing</h3>
+      <p className="text-gray-800 dark:text-white">
+        Creating captivating videos that tell your brand&apos;s story and engage your audience.
+      </p>
+    </div>
+  </div>
+</div>
+
 
 
       <h2 className="text-3xl font-bold mb-6 text-center">Meet Our Team</h2>
